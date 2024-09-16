@@ -10,7 +10,7 @@ package studentlist;
  */
 public class Student {
     private String name;
-    private String studentID;
+    private String studentId;
     private String address;
 
     public String getName() {
