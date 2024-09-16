@@ -11,7 +11,6 @@ package studentlist;
 public class Student {
     private String name;
     private String studentID;
-    private String address;
 
     public String getName() {
         return name;
@@ -21,11 +20,4 @@ public class Student {
         this.name = name;
     }
     
-   public void setAddress(String address){
-       this.address = address; 
-   }
-   
-   public String getAddress(){
-       return address;
-   }
 }
